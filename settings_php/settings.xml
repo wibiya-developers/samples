@@ -1,0 +1,58 @@
+<app appType="" appName="My application" id="">
+    <appearance>
+        <direction>ltr</direction>
+        <button>
+            <displayType>3</displayType>
+            <styleType>0</styleType>
+            <windowType>1</windowType>
+            <anchor>0</anchor>
+        </button>
+        <window>
+            <controls>
+                <close>1</close>
+                <min>1</min>
+                <pop>1</pop>
+            </controls>
+            <position>
+                <type>app</type>
+                <X />
+                <Y />
+                <margin />
+            </position>
+            <scrolling>1</scrolling>
+            <dimension>
+                <width>800</width>
+                <height>600</height>
+            </dimension>
+            <placeholder />
+        </window>
+    </appearance>
+    <settings>
+        <button>
+            <text termId="">My app</text>
+            <tooltip termId="">My application - the best ever</tooltip>
+            <img>
+                <imgUrl><![CDATA[http://cdn.wibiya.com/Graphics_Toolbar/Favicons/wibiya_logo.png]]></imgUrl>
+                <isSprite>1</isSprite>
+            </img>
+            <url><![CDATA[http://www.google.com/apps/***MY_APP_DOMAIN_NAME***]]></url>
+            <class />
+            <code />
+            <html />
+        </button>
+        <menu />
+        <connectivity/>
+        <customData />
+        <replacement>
+            <entry>
+                <key>MY_APP_DOMAIN_NAME</key>
+                <value><![CDATA[_MY_DOMAIN_NAME_]]></value>
+            </entry>
+        </replacement>
+    </settings>
+    <resources>
+        <css/>
+        <js/>
+        <spriteBuilder/>
+    </resources>
+</app>

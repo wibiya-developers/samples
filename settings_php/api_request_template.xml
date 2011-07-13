@@ -1,0 +1,10 @@
+<request>
+    <header>
+        <authentication>
+            <token>_TOKEN_</token>
+        </authentication>
+    </header>
+    <message>
+        _APP_XML_
+    </message>
+</request>
